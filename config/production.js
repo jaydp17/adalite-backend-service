@@ -5,7 +5,7 @@ module.exports = {
   appName: 'icarus-poc-backend-service',
   server: {
     allowCredentials: true,
-    logger: raw(consoleLogger('error')),
+    logger: raw(consoleLogger('debug')),
     port: 8080,
     apiConfig: {
       addressesRequestLimit: 50,
